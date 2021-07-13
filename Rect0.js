@@ -5,7 +5,7 @@ class Rect0{
      var options={
         restitution: 0 
      }
-      this.body=Bodies.rectangle(250,400,50,50,options)
+      this.body=Bodies.rectangle(400,610,90,50,{isStatic:true});
     this.width = 20;
     this.height = 100;
     
